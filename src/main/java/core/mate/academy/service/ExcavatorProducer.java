@@ -1,12 +1,10 @@
 package core.mate.academy.service;
 
+import core.mate.academy.model.Excavator;
 import java.util.ArrayList;
 import java.util.List;
 
-import core.mate.academy.model.Excavator;
-
 public class ExcavatorProducer implements MachineProducer<Excavator> {
-    
     private Excavator excavator1 = new Excavator();
     private Excavator excavator2 = new Excavator();
     private Excavator excavator3 = new Excavator();

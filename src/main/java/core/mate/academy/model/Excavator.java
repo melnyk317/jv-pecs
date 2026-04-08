@@ -2,7 +2,7 @@ package core.mate.academy.model;
 
 public class Excavator extends Machine {
     private int armLength;
-    private int trackFrameWeigth;
+    private int trackFrameWidth;
 
     public Excavator() {
     }
@@ -15,12 +15,12 @@ public class Excavator extends Machine {
         this.armLength = armLength;
     }
 
-    public int getTrackFrameWeigth() {
-        return trackFrameWeigth;
+    public int gettrackFrameWidth() {
+        return trackFrameWidth;
     }
 
-    public void setTrackFrameWeigth(int trackFrameWeigth) {
-        this.trackFrameWeigth = trackFrameWeigth;
+    public void settrackFrameWidth(int trackFrameWidth) {
+        this.trackFrameWidth = trackFrameWidth;
     }
 
     @Override

@@ -2,25 +2,25 @@ package core.mate.academy.model;
 
 public class Bulldozer extends Machine {
     private int bucketWidth;
-    private boolean heveRipper;
+    private boolean hasRipper;
 
     public Bulldozer() {
     }
 
-    public int getBucketWigth() {
+    public int getBucketWidth() {
         return bucketWidth;
     }
 
-    public void setBucketWigth(int bucketWigth) {
-        this.bucketWidth = bucketWigth;
+    public void setBucketWidth(int bucketWidth) {
+        this.bucketWidth = bucketWidth;
     }
 
-    public boolean getHeveRipper() {
-        return heveRipper;
+    public boolean isHasRipper() {
+        return hasRipper;
     }
 
-    public void setHeveRipper(boolean heveRipper) {
-        this.heveRipper = heveRipper;
+    public void setHasRipper(boolean hasRipper) {
+        this.hasRipper = hasRipper;
     }
 
     @Override
