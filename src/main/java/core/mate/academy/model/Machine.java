@@ -4,6 +4,9 @@ public abstract class Machine implements Workable {
     private String name;
     private String color;
 
+    @Override
+    public abstract void doWork();
+
     public String getName() {
         return name;
     }

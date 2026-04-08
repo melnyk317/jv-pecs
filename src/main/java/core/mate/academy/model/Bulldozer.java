@@ -1,11 +1,26 @@
 package core.mate.academy.model;
 
-/**
- * Add some custom fields that could be only in Bulldozer
- * Do not remove no-args constructor
- */
 public class Bulldozer extends Machine {
+    private int bucketWidth;
+    private boolean heveRipper;
+
     public Bulldozer() {
+    }
+
+    public int getBucketWigth() {
+        return bucketWidth;
+    }
+
+    public void setBucketWigth(int bucketWigth) {
+        this.bucketWidth = bucketWigth;
+    }
+
+    public boolean getHeveRipper() {
+        return heveRipper;
+    }
+
+    public void setHeveRipper(boolean heveRipper) {
+        this.heveRipper = heveRipper;
     }
 
     @Override
