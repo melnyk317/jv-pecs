@@ -15,11 +15,11 @@ public class Excavator extends Machine {
         this.armLength = armLength;
     }
 
-    public int gettrackFrameWidth() {
+    public int getTrackFrameWidth() {
         return trackFrameWidth;
     }
 
-    public void settrackFrameWidth(int trackFrameWidth) {
+    public void setTrackFrameWidth(int trackFrameWidth) {
         this.trackFrameWidth = trackFrameWidth;
     }
 

@@ -2,7 +2,7 @@ package core.mate.academy.model;
 
 public class Truck extends Machine {
     private int dumpBoxVolume;
-    private int numberOfWhells;
+    private int numberOfWheels;
 
     public Truck() {
     }
@@ -15,12 +15,12 @@ public class Truck extends Machine {
         this.dumpBoxVolume = dumpBoxVolume;
     }
 
-    public int getNumberOfWhells() {
-        return numberOfWhells;
+    public int getNumberOfWheels() {
+        return numberOfWheels;
     }
 
-    public void setNumberOfWhells(int numberOfWhells) {
-        this.numberOfWhells = numberOfWhells;
+    public void setNumberOfWheels(int numberOfWheels) {
+        this.numberOfWheels = numberOfWheels;
     }
 
     @Override
